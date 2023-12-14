@@ -1,0 +1,37 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.container * {
+    border: 1px solid green;
+
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+  
+    position: fixed;
+    width: 100%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.161);
+    background-color:rgb(255, 102, 0);
+  
+}
+
+header ul{
+    display: flex;
+    gap: 20px;
+}
+
+
+.container li{
+    list-style-type: none;
+}
+
